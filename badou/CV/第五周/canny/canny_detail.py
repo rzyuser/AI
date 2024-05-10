@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import math
  
 if __name__ == '__main__':
-    pic_path = 'lenna.png' 
+    pic_path = '../../imgs/lenna.png'
     img = plt.imread(pic_path)
     print("image",img)
     if pic_path[-4:] == '.png':  # .png图片在这里的存储格式是0到1的浮点数，所以要扩展到255再计算

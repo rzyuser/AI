@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4477ccbd-4d96-43b6-b7cc-43bbe6c4ebaf" name="Default Changelist" comment="相关配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第五周/canny/canny_detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第五周/canny/canny_detail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第五周/透视变换/寻找顶点.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第五周/透视变换/寻找顶点.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/badou/CV/第五周/参考" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/badou/CV/imgs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,18 +52,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/badou/CV/imgs" />
+      <recent name="$PROJECT_DIR$/badou/CV/第五周/作业" />
+      <recent name="$PROJECT_DIR$/badou/CV/第五周/canny" />
       <recent name="$PROJECT_DIR$/badou/CV/第五周/参考" />
       <recent name="$PROJECT_DIR$/badou/CV/第五周" />
-      <recent name="$PROJECT_DIR$/练习/八斗课程内容练习" />
-      <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/imgs" />
-      <recent name="$PROJECT_DIR$/badou/CV/第四周/作业" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/badou/CV/第四周/作业" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.d">
-    <configuration name="直方图均衡化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.透视变换-01">
+    <configuration name="透视变换-01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,12 +71,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习/八斗课程内容练习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第五周/参考" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/八斗课程内容练习/直方图均衡化.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第五周/参考/透视变换-01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Histogram Equalization-新" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="透视变换" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,12 +93,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第三周" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第五周/作业" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第三周/Histogram Equalization-新.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第五周/作业/透视变换.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="寻找顶点" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第五周/透视变换" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第五周/透视变换/寻找顶点.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="canny_detail (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,12 +225,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第三周" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第五周/canny" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第三周/d.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第五周/canny/canny_detail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nearest interp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="canny_detail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,34 +247,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第二周" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第五周/作业" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第二周/nearest interp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="soble" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习/八斗课程内容练习" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/八斗课程内容练习/soble.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第五周/作业/canny_detail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.d" />
-        <item itemvalue="Python.直方图均衡化" />
-        <item itemvalue="Python.Histogram Equalization-新" />
-        <item itemvalue="Python.soble" />
-        <item itemvalue="Python.nearest interp" />
+        <item itemvalue="Python.透视变换-01" />
+        <item itemvalue="Python.寻找顶点" />
+        <item itemvalue="Python.透视变换" />
+        <item itemvalue="Python.canny_detail (1)" />
+        <item itemvalue="Python.canny_detail" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +286,7 @@
       <workItem from="1713510787764" duration="155000" />
       <workItem from="1713944737501" duration="8261000" />
       <workItem from="1714734684277" duration="2225000" />
-      <workItem from="1715311697813" duration="2152000" />
+      <workItem from="1715311697813" duration="9142000" />
     </task>
     <task id="LOCAL-00001" summary="相关配置">
       <created>1712551951664</created>
@@ -356,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715312349875</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="相关配置">
+      <created>1715314109463</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715314109463</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,16 +402,21 @@
     <SUITE FILE_PATH="coverage/AI$test_image_gray.coverage" NAME="test_image_gray Coverage Results" MODIFIED="1713953217265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第二周" />
     <SUITE FILE_PATH="coverage/AI$sobel_.coverage" NAME="sobel-新 Coverage Results" MODIFIED="1712653244712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第三周" />
     <SUITE FILE_PATH="coverage/AI$d.coverage" NAME="d Coverage Results" MODIFIED="1715313609927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第三周" />
+    <SUITE FILE_PATH="coverage/AI$canny_01.coverage" NAME="canny_01 Coverage Results" MODIFIED="1715327702938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/作业" />
     <SUITE FILE_PATH="coverage/AI$PCA_numpy__1_.coverage" NAME="PCA_numpy (1) Coverage Results" MODIFIED="1713432024213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/PCA" />
     <SUITE FILE_PATH="coverage/AI$_.coverage" NAME="高斯噪声-新 Coverage Results" MODIFIED="1713953984075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/作业" />
-    <SUITE FILE_PATH="coverage/AI$.coverage" NAME="直方图均衡化 Coverage Results" MODIFIED="1714736923622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习" />
+    <SUITE FILE_PATH="coverage/AI$.coverage" NAME="寻找顶点 Coverage Results" MODIFIED="1715333134006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/透视变换" />
+    <SUITE FILE_PATH="coverage/AI$canny_detail__1_.coverage" NAME="canny_detail (1) Coverage Results" MODIFIED="1715332820470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/canny" />
     <SUITE FILE_PATH="coverage/AI$PCA.coverage" NAME="PCA Coverage Results" MODIFIED="1713510912467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/作业" />
     <SUITE FILE_PATH="coverage/AI$nearest_interp.coverage" NAME="nearest interp Coverage Results" MODIFIED="1713956384251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第二周" />
     <SUITE FILE_PATH="coverage/AI$Histogram_Equalization_.coverage" NAME="Histogram Equalization-新 Coverage Results" MODIFIED="1714736089379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第三周" />
     <SUITE FILE_PATH="coverage/AI$PCA_numpy.coverage" NAME="PCA_numpy Coverage Results" MODIFIED="1713432580095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/作业" />
+    <SUITE FILE_PATH="coverage/AI$canny_detail.coverage" NAME="canny_detail Coverage Results" MODIFIED="1715332758958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/作业" />
     <SUITE FILE_PATH="coverage/AI$PCA_sklearn.coverage" NAME="PCA_sklearn Coverage Results" MODIFIED="1713510918972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/作业" />
     <SUITE FILE_PATH="coverage/AI$PCA_numpy_detail__1_.coverage" NAME="PCA_numpy_detail (1) Coverage Results" MODIFIED="1713432560909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/作业" />
     <SUITE FILE_PATH="coverage/AI$PCA_numpy_detail.coverage" NAME="PCA_numpy_detail Coverage Results" MODIFIED="1713430578264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/PCA" />
+    <SUITE FILE_PATH="coverage/AI$sobel_laplace_canny.coverage" NAME="sobel_laplace_canny Coverage Results" MODIFIED="1715327780958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/canny" />
+    <SUITE FILE_PATH="coverage/AI$_01.coverage" NAME="透视变换-01 Coverage Results" MODIFIED="1715333218177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/参考" />
     <SUITE FILE_PATH="coverage/AI$soble.coverage" NAME="soble Coverage Results" MODIFIED="1714735704935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习" />
   </component>
 </project>

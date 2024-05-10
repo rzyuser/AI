@@ -18,7 +18,7 @@ closed ： 得到的近似曲线是否封闭，一般为True
 approxCurve ：返回的拟合后的多边形顶点集。
 '''
 
-img = cv2.imread('photo1.jpg')
+img = cv2.imread('../../imgs/photo1.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(gray, (5, 5), 0)
 dilate = cv2.dilate(blurred, cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)))
