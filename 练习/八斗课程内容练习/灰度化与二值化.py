@@ -7,10 +7,6 @@ from skimage.color import rgb2gray
 # 详细版灰度化 cv版本读取
 cv_img = cv2.imread('./imgs/lenna.png')
 # cv_img1 = cv2.cvtColor(cv_img, cv2.COLOR_RGB2GRAY)
-
-# cv2.imshow('src', cv_img)
-# cv2.imshow('src1', cv_img1)
-
 height, width = cv_img.shape[:2]
 img_gray = np.zeros([height,width], cv_img.dtype)
 for i in range(height):
