@@ -10,7 +10,7 @@ def nearest_interp(img):
     sh = hn / height
     sw = wn / width
     for i in range(hn):
-        for j in range(hn):
+        for j in range(wn):
             x = int(i / sh + 0.5)
             y = int(j / sw + 0.5)
             nearest_interp1[i, j] = img[x, y]
@@ -28,8 +28,9 @@ def bilinear_interp(img):
     for i in range(channels):
         for dst_y in range(dst_h):
             for dst_x in range(dst_w):
-                src_x = (dst_x + 0.5) * scale_x - 0.5
                 src_y = (dst_y + 0.5) * scale_y - 0.5
+                src_x = (dst_x + 0.5) * scale_x - 0.5
+
 
                 src_x0 = int(np.floor(src_x))
                 src_x1 = min(src_x0 + 1 , src_w - 1)
