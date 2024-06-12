@@ -71,15 +71,15 @@ def test():
     n_inputs = 1  # 输入变量个数
     n_outputs = 1  # 输出变量个数
     A_exact = 30 * np.random.random((n_samples, n_inputs))  # 随机生成0-30之间的600个数据:行向量
-    print(A_exact)
+    # print(A_exact)
     perfect_fit = 70 * np.random.normal(size=(n_inputs, n_outputs))  # 即随机生成一个斜率
-    print(perfect_fit)
+    # print(perfect_fit)
     B_exact = sp.dot(A_exact, perfect_fit)  # y = k * x
     # 加入高斯噪声,最小二乘法能很好的处理
     A_noisy = A_exact + np.random.normal(size=A_exact.shape)  # 600行一列的数,代表Xi
     B_noisy = B_exact + np.random.normal(size=B_exact.shape)  # 600行一列的数,代表Yi
-    print(A_noisy)
-    print(B_noisy)
+    # print(A_noisy)
+    # print(B_noisy)
     # 只有上面都执行成功在会执行if里面的
     if True:
         # 添加局外点
