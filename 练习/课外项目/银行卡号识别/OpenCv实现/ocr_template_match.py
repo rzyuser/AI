@@ -13,7 +13,7 @@ if __name__ == '__main__':
     ref = cv2.threshold(img_gray, 10, 255, cv2.THRESH_BINARY_INV)[1]
     # cv2.imshow('ref', ref)
     # 轮廓检测
-    ref_, refCnts, hierarchy = cv2.findContours(ref.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    refCnts, hierarchy = cv2.findContours(ref.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     # 展示检测效果
     cv2.drawContours(img, refCnts, -1, (0, 0, 255), 3)
     # cv2.imshow('img', img)
@@ -21,13 +21,12 @@ if __name__ == '__main__':
     refCnts = myutils.sort_contours(refCnts, method="left-to-right")[0]  # 排序，从左到右，从上到下
     digits = {}
     # 将轮廓与对应的值相匹配
-    digits = {}
     # 遍历每一个轮廓
     for (i, c) in enumerate(refCnts):
         # 计算外接矩形并且resize成合适大小
         (x, y, w, h) = cv2.boundingRect(c)
         roi = ref[y:y + h, x:x + w]
-        roi = cv2.resize(roi, (57, 88))
+        roi = myutils.resize(roi, 57, 88)
 
         # 每一个数字对应每一个模板
         digits[i] = roi
@@ -35,8 +34,10 @@ if __name__ == '__main__':
     rectKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (9, 3))
     sqKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
     # 读取输入图像，预处理
-    image = cv2.imread('../images/credit_card_03.png')
+    image = cv2.imread('../images/credit_card_05.png')
+    print(image.shape)
     image = myutils.resize(image, width=300)
+    # print(image.shape)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     # 礼帽操作，突出更明亮的区域
     tophat = cv2.morphologyEx(gray, cv2.MORPH_TOPHAT, rectKernel)
@@ -56,8 +57,7 @@ if __name__ == '__main__':
 
     # 计算轮廓
 
-    thresh_, threshCnts, hierarchy = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
-                                                      cv2.CHAIN_APPROX_SIMPLE)
+    threshCnts, hierarchy = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     cnts = threshCnts
     cur_img = image.copy()
@@ -69,6 +69,7 @@ if __name__ == '__main__':
         # 计算矩形
         (x, y, w, h) = cv2.boundingRect(c)
         ar = w / float(h)
+        print(ar)
 
         # 选择合适的区域，根据实际任务来，这里的基本都是四个数字一组
         if ar > 2.5 and ar < 4.0:
@@ -92,8 +93,7 @@ if __name__ == '__main__':
         group = cv2.threshold(group, 0, 255,
                               cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
         # 计算每一组的轮廓
-        group_, digitCnts, hierarchy = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL,
-                                                        cv2.CHAIN_APPROX_SIMPLE)
+        digitCnts, hierarchy = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         digitCnts = contours.sort_contours(digitCnts,
                                            method="left-to-right")[0]
 
