@@ -1,12 +1,11 @@
 from imutils import contours
 import numpy as np
-import argparse
 import cv2
-import myutils
+from 练习.课外项目.银行卡号识别 import myutils
 
 if __name__ == '__main__':
     # 读取样板图
-    img = cv2.imread('../images/ocr_a_reference.png')
+    img = cv2.imread('images/ocr_a_reference.png')
     # 进行灰度化
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # 进行二值化
@@ -34,7 +33,7 @@ if __name__ == '__main__':
     rectKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (9, 3))
     sqKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
     # 读取输入图像，预处理
-    image = cv2.imread('../images/credit_card_05.png')
+    image = cv2.imread('images/credit_card_05.png')
     print(image.shape)
     image = myutils.resize(image, width=300)
     # print(image.shape)
