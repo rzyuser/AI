@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# 生成输入蹭
+# 生成输入数据
 x_data = np.linspace(-0.5, 0.5, 200)[:, np.newaxis]
 # print(x_data.shape)
 # 生成200*1的均值为0，标准差为0.02的数
