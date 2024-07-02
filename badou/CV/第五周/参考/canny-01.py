@@ -6,7 +6,7 @@ import cv2
 from matplotlib import pyplot as plt
 
 if __name__ == '__main__':
-    img = cv2.imread('../data/lenna.png')
+    img = cv2.imread('../mnist_data/lenna.png')
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     new_img = cv2.GaussianBlur(gray, (5, 5), sigmaX=1.4)
     sobel_x = cv2.Sobel(new_img, cv2.CV_64F, 1, 0, ksize=3)

@@ -6,7 +6,7 @@ import scipy.linalg as sl
 def ransac(data, model, n, k, t, d, debug=False, return_all=False):
     """
     输入:
-        data - 样本点
+        mnist_data - 样本点
         model - 假设模型:事先自己确定
         n - 生成模型所需的最少样本点
         k - 最大迭代次数
@@ -84,7 +84,7 @@ def ransac(data, model, n, k, t, d, debug=False, return_all=False):
 
 
 def random_partition(n, n_data):
-    """return n random rows of data and the other len(data) - n rows"""
+    """return n random rows of mnist_data and the other len(mnist_data) - n rows"""
     all_idxs = np.arange(n_data)  # 获取n_data下标索引
     np.random.shuffle(all_idxs)  # 打乱下标索引
     idxs1 = all_idxs[:n]
@@ -154,12 +154,12 @@ def test():
         A_col0_sorted = A_exact[sort_idxs]  # 秩为2的数组
 
         if 1:
-            pylab.plot(A_noisy[:, 0], B_noisy[:, 0], 'k.', label='data')  # 散点图
+            pylab.plot(A_noisy[:, 0], B_noisy[:, 0], 'k.', label='mnist_data')  # 散点图
             pylab.plot(A_noisy[ransac_data['inliers'], 0], B_noisy[ransac_data['inliers'], 0], 'bx',
-                       label="RANSAC data")
+                       label="RANSAC mnist_data")
         else:
-            pylab.plot(A_noisy[non_outlier_idxs, 0], B_noisy[non_outlier_idxs, 0], 'k.', label='noisy data')
-            pylab.plot(A_noisy[outlier_idxs, 0], B_noisy[outlier_idxs, 0], 'r.', label='outlier data')
+            pylab.plot(A_noisy[non_outlier_idxs, 0], B_noisy[non_outlier_idxs, 0], 'k.', label='noisy mnist_data')
+            pylab.plot(A_noisy[outlier_idxs, 0], B_noisy[outlier_idxs, 0], 'r.', label='outlier mnist_data')
 
         pylab.plot(A_col0_sorted[:, 0],
                    np.dot(A_col0_sorted, ransac_fit)[:, 0],

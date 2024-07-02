@@ -208,7 +208,7 @@ def Canny(img_path):
 
 
 if __name__ == '__main__':
-    img_path = '../data/lenna.png'
+    img_path = '../mnist_data/lenna.png'
     dst = Canny(img_path)
     cv2.imshow('dst', dst)
     plt.show()

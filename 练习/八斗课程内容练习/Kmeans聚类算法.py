@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 """
 在OpenCV中，Kmeans()函数原型如下所示：
-retval, bestLabels, centers = kmeans(data, K, bestLabels, criteria, attempts, flags[, centers])
+retval, bestLabels, centers = kmeans(mnist_data, K, bestLabels, criteria, attempts, flags[, centers])
     data表示聚类数据，最好是np.flloat32类型的N维点集
     K表示聚类类簇数
     bestLabels表示输出的整数数组，用于存储每个样本的聚类标签索引

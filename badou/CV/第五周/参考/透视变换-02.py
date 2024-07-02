@@ -5,7 +5,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('../data/photo.jpg')
+image = cv2.imread('../mnist_data/photo.jpg')
 
 src = np.float32([[207, 151], [517, 285], [17, 601], [343, 731]])
 dst = np.float32([[0, 0], [337, 0], [0, 488], [337, 488]])

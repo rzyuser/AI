@@ -2,14 +2,14 @@
 
 '''
 在OpenCV中，Kmeans()函数原型如下所示：
-retval, bestLabels, centers = kmeans(data, K, bestLabels, criteria, attempts, flags[, centers])
+retval, bestLabels, centers = kmeans(mnist_data, K, bestLabels, criteria, attempts, flags[, centers])
     data表示聚类数据，最好是np.flloat32类型的N维点集
     K表示聚类类簇数
     bestLabels表示输出的整数数组，用于存储每个样本的聚类标签索引
     criteria表示迭代停止的模式选择，这是一个含有三个元素的元组型数。格式为（type, max_iter, epsilon）
         其中，type有如下模式：
 在OpenCV中，Kmeans()函数原型如下所示：
-retval, bestLabels, centers = kmeans(data, K, bestLabels, criteria, attempts, flags[, centers])
+retval, bestLabels, centers = kmeans(mnist_data, K, bestLabels, criteria, attempts, flags[, centers])
     data表示聚类数据，最好是np.flloat32类型的N维点集
     K表示聚类类簇数
     bestLabels表示输出的整数数组，用于存储每个样本的聚类标签索引
