@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4477ccbd-4d96-43b6-b7cc-43bbe6c4ebaf" name="Default Changelist" comment="相关配置">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第七周/参考/SIFT/SIFT_关键点.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第七周/参考/SIFT/SIFT_特征匹配.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第七周/参考/SIFT/iphone1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第七周/参考/SIFT/iphone2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第七周/参考/聚类/密度聚类.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第七周/参考/聚类/层次聚类.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第九周/参考/标准化.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第五周/参考/canny-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第五周/参考/canny-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第五周/参考/canny-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第五周/参考/canny-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第五周/参考/透视变换-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第五周/参考/透视变换-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第八周/作业/ransac.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第八周/作业/ransac.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第八周/参考/ransac.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第八周/参考/ransac.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第六周/参考/K-Means.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第六周/参考/K-Means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/作业/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十周/作业/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/NeuralNetWork.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/NeuralNetWork_init.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/NeuralNetWork_init_detail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/NeuralNetWork_run_detail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/NeuralNetWork_train_detail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/mnist_test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/mnist_train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/my_own_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/my_own_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/my_own_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/my_own_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/my_own_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/my_own_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/dataset/my_own_noisy_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/NeuralNetWork_从零开始/画图.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/keras.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/tf/tf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/tf/tf_feed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/tf/tf_fetch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/tf/tf_graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/tf/tf_tensorboard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/参考/tf/tf_variable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/Kmeans聚类算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/Kmeans聚类算法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/ransac.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/ransac.py" afterDir="false" />
-    </list>
+    <list default="true" id="4477ccbd-4d96-43b6-b7cc-43bbe6c4ebaf" name="Default Changelist" comment="相关配置" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -389,7 +346,7 @@
       <workItem from="1719476300840" duration="9539000" />
       <workItem from="1719567621394" duration="87000" />
       <workItem from="1719799638276" duration="5702000" />
-      <workItem from="1719902682722" duration="2214000" />
+      <workItem from="1719902682722" duration="2613000" />
     </task>
     <task id="LOCAL-00001" summary="相关配置">
       <created>1712551951664</created>
@@ -552,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719560976368</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="相关配置">
+      <created>1719905542325</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719905542325</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
