@@ -8,7 +8,7 @@ import Cifar10_data
 max_steps = 4000
 batch_size = 100
 num_examples_for_eval = 10000
-data_dir = '../cifar_data/cifar-10-batches-bin'
+data_dir = '../../../../data/cifar_data/cifar-10-batches-bin'
 
 
 def variable_with_weight_loss(shape, stddev, w1):

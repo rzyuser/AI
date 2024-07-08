@@ -72,13 +72,13 @@ def mnist_load_data():
         [transformsn.ToTensor(),
          transformsn.Normalize([0, ], [1, ])])
 
-    trainset = torchvision.datasets.MNIST(root='../mnist_data', train=True,
+    trainset = torchvision.datasets.MNIST(root='../../../../data/mnist_data', train=True,
                                           download=False, transform=transform)
 
     trainloader = torch.utils.data.DataLoader(trainset, batch_size=32,
                                               shuffle=True, num_workers=2)
 
-    testset = torchvision.datasets.MNIST(root='../mnist_data', train=False,
+    testset = torchvision.datasets.MNIST(root='../../../../data/mnist_data', train=False,
                                           download=False, transform=transform)
 
     testloader = torch.utils.data.DataLoader(testset, batch_size=32,
