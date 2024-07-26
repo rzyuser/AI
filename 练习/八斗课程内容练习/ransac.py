@@ -89,6 +89,7 @@ def test():
     B_noisy = B_exact + np.random.normal(size=B_exact.shape)
     n_outliers = 100
     all_idxs = np.arange(A_noisy.shape[0])      # 获取索引
+    print(all_idxs)
     np.random.shuffle(all_idxs)
     outlier_idxs = all_idxs[:n_outliers]
     A_noisy[outlier_idxs] = 20 * np.random.random((n_outputs, n_inputs))
