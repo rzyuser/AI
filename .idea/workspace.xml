@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4477ccbd-4d96-43b6-b7cc-43bbe6c4ebaf" name="Default Changelist" comment="相关配置">
-      <change beforePath="$PROJECT_DIR$/.idea/AI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十周/作业/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十周/作业/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/ransac.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/ransac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/camera_detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/camera_detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/frcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/frcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/RoiPoolingConv.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/RoiPoolingConv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/frcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/frcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/frcnn_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/frcnn_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/anchors.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/anchors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/roi_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/roi_helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +258,7 @@
       <workItem from="1721384420463" duration="2467000" />
       <workItem from="1721973080755" duration="1878000" />
       <workItem from="1721975813116" duration="829000" />
-      <workItem from="1721977481298" duration="1114000" />
+      <workItem from="1721977481298" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="相关配置">
       <created>1712551951664</created>
@@ -454,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721294100021</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="相关配置">
+      <created>1721979055201</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1721979055201</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +514,7 @@
     <SUITE FILE_PATH="coverage/AI$test_image_gray.coverage" NAME="test_image_gray Coverage Results" MODIFIED="1713953217265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第二周" />
     <SUITE FILE_PATH="coverage/AI$d.coverage" NAME="d Coverage Results" MODIFIED="1715313609927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第三周" />
     <SUITE FILE_PATH="coverage/AI$mobilenet.coverage" NAME="mobilenet Coverage Results" MODIFIED="1721294031162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十三周/作业" />
-    <SUITE FILE_PATH="coverage/AI$predict.coverage" NAME="predict Coverage Results" MODIFIED="1721978408020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master" />
+    <SUITE FILE_PATH="coverage/AI$predict.coverage" NAME="predict Coverage Results" MODIFIED="1721978867505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master" />
     <SUITE FILE_PATH="coverage/AI$keras__1_.coverage" NAME="keras (1) Coverage Results" MODIFIED="1719226261531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十周/参考" />
     <SUITE FILE_PATH="coverage/AI$Canny_.coverage" NAME="Canny-边缘检测算法 Coverage Results" MODIFIED="1718937152278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习" />
     <SUITE FILE_PATH="coverage/AI$nearest_interp.coverage" NAME="nearest interp Coverage Results" MODIFIED="1713956384251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第二周" />

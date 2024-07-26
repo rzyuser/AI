@@ -73,14 +73,12 @@ class FRCNN(object):
             padding = [3, 1, 0, 0]
             stride = 2
             for i in range(4):
-                # input_length = (input_length - filter_size + stride) // stride
                 input_length = (input_length + 2 * padding[i] - filter_sizes[i]) // stride + 1
             return input_length
 
         return get_output_length(width), get_output_length(height)
 
-        #   检测图片
-
+    #   检测图片
     def detect_image(self, image):
         image_shape = np.array(np.shape(image)[0:2])
         old_width = image_shape[1]

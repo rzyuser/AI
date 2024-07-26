@@ -1,8 +1,6 @@
 import numpy as np
-import pdb
-import math
 import copy
-import time
+
 
 def union(au, bu, area_intersection):
     area_a = (au[2] - au[0]) * (au[3] - au[1])
@@ -20,6 +18,7 @@ def intersection(ai, bi):
         return 0
     return w*h
 
+
 def iou(a, b):
     if a[0] >= a[2] or a[1] >= a[3] or b[0] >= b[2] or b[1] >= b[3]:
         return 0.0
@@ -29,9 +28,9 @@ def iou(a, b):
 
     return float(area_i) / float(area_u + 1e-6)
 
+
 def calc_iou(R, config, all_boxes, width, height, num_classes):
-    # print(all_boxes)
-    bboxes = all_boxes[:,:4]
+    bboxes = all_boxes[:, :4]
     gta = np.zeros((len(bboxes), 4))
     for bbox_num, bbox in enumerate(bboxes):
         gta[bbox_num, 0] = int(round(bbox[0]*width/config.rpn_stride))
@@ -43,7 +42,6 @@ def calc_iou(R, config, all_boxes, width, height, num_classes):
     y_class_regr_coords = []
     y_class_regr_label = []
     IoUs = []
-    # print(gta)
     for ix in range(R.shape[0]):
         x1 = R[ix, 0]*width/config.rpn_stride
         y1 = R[ix, 1]*height/config.rpn_stride
@@ -54,7 +52,6 @@ def calc_iou(R, config, all_boxes, width, height, num_classes):
         y1 = int(round(y1))
         x2 = int(round(x2))
         y2 = int(round(y2))
-        # print([x1, y1, x2, y2])
         best_iou = 0.0
         best_bbox = -1
         for bbox_num in range(len(bboxes)):
@@ -62,7 +59,6 @@ def calc_iou(R, config, all_boxes, width, height, num_classes):
             if curr_iou > best_iou:
                 best_iou = curr_iou
                 best_bbox = bbox_num
-        # print(best_iou)
         if best_iou < config.classifier_min_overlap:
             continue
         else:
@@ -89,7 +85,6 @@ def calc_iou(R, config, all_boxes, width, height, num_classes):
             else:
                 print('roi = {}'.format(best_iou))
                 raise RuntimeError
-        # print(label)
         class_label = num_classes * [0]
         class_label[label] = 1
         y_class_num.append(copy.deepcopy(class_label))
@@ -110,7 +105,6 @@ def calc_iou(R, config, all_boxes, width, height, num_classes):
         return None, None, None, None
 
     X = np.array(x_roi)
-    # print(X)
     Y1 = np.array(y_class_num)
     Y2 = np.concatenate([np.array(y_class_regr_label),np.array(y_class_regr_coords)],axis=1)
 

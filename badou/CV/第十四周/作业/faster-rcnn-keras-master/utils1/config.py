@@ -15,4 +15,3 @@ class Config:
         self.classifier_min_overlap = 0.1
         self.classifier_max_overlap = 0.5
         self.classifier_regr_std = [8.0, 8.0, 4.0, 4.0]
-        

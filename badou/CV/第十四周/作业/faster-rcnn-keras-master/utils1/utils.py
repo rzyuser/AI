@@ -1,13 +1,9 @@
-import numpy as np
 import tensorflow as tf
-from PIL import Image
-import keras
 import numpy as np
-import math
 
 
 class BBoxUtility(object):
-    def __init__(self, priors=None, overlap_threshold=0.7,ignore_threshold=0.3,
+    def __init__(self, priors=None, overlap_threshold=0.7, ignore_threshold=0.3,
                  nms_thresh=0.7, top_k=300):
         self.priors = priors
         self.num_priors = 0 if priors is None else len(priors)
@@ -56,7 +52,7 @@ class BBoxUtility(object):
         # 真实框的面积
         area_true = (box[2] - box[0]) * (box[3] - box[1])
         # 先验框的面积
-        area_gt = (self.priors[:, 2] - self.priors[:, 0])*(self.priors[:, 3] - self.priors[:, 1])
+        area_gt = (self.priors[:, 2] - self.priors[:, 0]) * (self.priors[:, 3] - self.priors[:, 1])
         # 计算iou
         union = area_true + area_gt - inter
 
@@ -73,7 +69,7 @@ class BBoxUtility(object):
             assign_mask[iou.argmax()] = True
         if return_iou:
             encoded_box[:, -1][assign_mask] = iou[assign_mask]
-        
+
         # 找到对应的先验框
         assigned_priors = self.priors[assign_mask]
         # 逆向编码，将真实框转化为FasterRCNN预测结果的格式
@@ -85,7 +81,7 @@ class BBoxUtility(object):
                                         assigned_priors[:, 2:4])
         assigned_priors_wh = (assigned_priors[:, 2:4] -
                               assigned_priors[:, :2])
-        
+
         # 逆向求取FasterRCNN应该有的预测结果
         encoded_box[:, :2][assign_mask] = box_center - assigned_priors_center
         encoded_box[:, :2][assign_mask] /= assigned_priors_wh
@@ -97,18 +93,17 @@ class BBoxUtility(object):
 
     def ignore_box(self, box):
         iou = self.iou(box)
-        
+
         ignored_box = np.zeros((self.num_priors, 1))
 
         # 找到每一个真实框，重合程度较高的先验框
-        assign_mask = (iou > self.ignore_threshold)&(iou<self.overlap_threshold)
+        assign_mask = (iou > self.ignore_threshold) & (iou < self.overlap_threshold)
 
         if not assign_mask.any():
             assign_mask[iou.argmax()] = True
-            
+
         ignored_box[:, 0][assign_mask] = iou[assign_mask]
         return ignored_box.ravel()
-
 
     def assign_boxes(self, boxes, anchors):
         self.num_priors = len(anchors)
@@ -118,7 +113,7 @@ class BBoxUtility(object):
         assignment[:, 4] = 0.0
         if len(boxes) == 0:
             return assignment
-            
+
         # 对每一个真实框都进行iou计算
         ingored_boxes = np.apply_along_axis(self.ignore_box, 1, boxes[:, :4])
         # 取重合程度最大的先验框，并且获取这个先验框的index
@@ -151,7 +146,7 @@ class BBoxUtility(object):
         # 哪些先验框存在真实框
         encoded_boxes = encoded_boxes[:, best_iou_mask, :]
 
-        assignment[:, :4][best_iou_mask] = encoded_boxes[best_iou_idx,np.arange(assign_num),:4]
+        assignment[:, :4][best_iou_mask] = encoded_boxes[best_iou_idx, np.arange(assign_num), :4]
         # 4代表为背景的概率，为0
         assignment[:, 4][best_iou_mask] = 1
         # 通过assign_boxes我们就获得了，输入进来的这张图片，应该有的预测结果是什么样子的
@@ -171,11 +166,11 @@ class BBoxUtility(object):
         decode_bbox_center_x += prior_center_x
         decode_bbox_center_y = mbox_loc[:, 1] * prior_height / 4
         decode_bbox_center_y += prior_center_y
-        
+
         # 真实框的宽与高的求取
         decode_bbox_width = np.exp(mbox_loc[:, 2] / 4)
         decode_bbox_width *= prior_width
-        decode_bbox_height = np.exp(mbox_loc[:, 3] /4)
+        decode_bbox_height = np.exp(mbox_loc[:, 3] / 4)
         decode_bbox_height *= prior_height
 
         # 获取真实框的左上角与右下角
@@ -194,8 +189,8 @@ class BBoxUtility(object):
         return decode_bbox
 
     def detection_out(self, predictions, mbox_priorbox, num_classes, keep_top_k=300,
-                        confidence_threshold=0.5):
-        
+                      confidence_threshold=0.5):
+
         # 网络预测的结果
         # 置信度
         mbox_conf = predictions[0]
@@ -216,7 +211,7 @@ class BBoxUtility(object):
                     confs_to_process = c_confs[c_confs_m]
                     # 进行iou的非极大抑制
                     feed_dict = {self.boxes: boxes_to_process,
-                                    self.scores: confs_to_process}
+                                 self.scores: confs_to_process}
                     idx = self.sess.run(self.nms, feed_dict=feed_dict)
                     # 取出在非极大抑制中效果较好的内容
                     good_boxes = boxes_to_process[idx]
@@ -239,11 +234,11 @@ class BBoxUtility(object):
         # 还有，利用先验框和Retinanet的预测结果，处理获得了真实框（预测框）的位置
         return results
 
-    def nms_for_out(self,all_labels,all_confs,all_bboxes,num_classes,nms):
+    def nms_for_out(self, all_labels, all_confs, all_bboxes, num_classes, nms):
         results = []
         nms_out = tf.image.non_max_suppression(self.boxes, self.scores,
-                                                self._top_k,
-                                                iou_threshold=nms)
+                                               self._top_k,
+                                               iou_threshold=nms)
         for c in range(num_classes):
             c_pred = []
             mask = all_labels == c
@@ -253,13 +248,13 @@ class BBoxUtility(object):
                 confs_to_process = all_confs[mask]
                 # 进行iou的非极大抑制
                 feed_dict = {self.boxes: boxes_to_process,
-                                self.scores: confs_to_process}
+                             self.scores: confs_to_process}
                 idx = self.sess.run(nms_out, feed_dict=feed_dict)
                 # 取出在非极大抑制中效果较好的内容
                 good_boxes = boxes_to_process[idx]
                 confs = confs_to_process[idx][:, None]
                 # 将label、置信度、框的位置进行堆叠。
                 labels = c * np.ones((len(idx), 1))
-                c_pred = np.concatenate((labels, confs, good_boxes),axis=1)
+                c_pred = np.concatenate((labels, confs, good_boxes), axis=1)
             results.extend(c_pred)
         return results

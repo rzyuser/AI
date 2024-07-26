@@ -6,29 +6,10 @@ if K.backend() == 'tensorflow':
 
 
 class RoiPoolingConv(Layer):
-    '''
-    ROI pooling layer for 2D inputs.
-    # Arguments
-        pool_size: int
-            Size of pooling region to use. pool_size = 7 will result in a 7x7 region.
-        num_rois: number of regions of interest to be used
-    # Input shape
-        list of two 4D tensors [X_img,X_roi] with shape:
-        X_img:
-        `(1, channels, rows, cols)` if dim_ordering='th'
-        or 4D tensor with shape:
-        `(1, rows, cols, channels)` if dim_ordering='tf'.
-        X_roi:
-        `(1,num_rois,4)` list of rois, with ordering (x,y,w,h)
-    # Output shape
-        3D tensor with shape:
-        `(1, num_rois, channels, pool_size, pool_size)`
-    '''
 
     def __init__(self, pool_size, num_rois, **kwargs):
 
-        self.dim_ordering = K.image_data_format()   #旧版本使用image_dim_ordering()
-        # assert self.dim_ordering in {'tf', 'th'}, 'dim_ordering must be in {tf, th}'
+        self.dim_ordering = K.image_data_format()
 
         self.pool_size = pool_size
         self.num_rois = num_rois
