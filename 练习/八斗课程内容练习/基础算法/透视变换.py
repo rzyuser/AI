@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread('./imgs/photo1.jpg')
+img = cv2.imread('../imgs/photo1.jpg')
 
 img_copy = img.copy()
 # 需要手动需寻找设置这八个点的坐标

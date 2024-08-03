@@ -1,7 +1,7 @@
 import cv2
 
 
-img = cv2.imread('./imgs/lenna.png',0)
+img = cv2.imread('../imgs/lenna.png', 0)
 
 # 边缘检测
 X = cv2.Sobel(img, cv2.CV_16S, 1, 0)

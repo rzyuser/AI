@@ -162,7 +162,7 @@ class Canny_Edge_Detection(object):
 
 
 if __name__ == '__main__':
-    path = './imgs/lenna.png'
+    path = '../imgs/lenna.png'
     cannys = Canny_Edge_Detection(path)
 
     # 调用接口 一行解决

@@ -20,7 +20,7 @@ import numpy as np
 """
 彩色直方图均衡化
 """
-img = cv2.imread('./imgs/lenna.png')
+img = cv2.imread('../imgs/lenna.png')
 (b, g, r) = cv2.split(img)
 bH = cv2.equalizeHist(b)
 gH = cv2.equalizeHist(g)

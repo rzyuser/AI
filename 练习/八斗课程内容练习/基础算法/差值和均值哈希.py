@@ -50,12 +50,12 @@ def zaosheng(img):
     img_noise = util.random_noise(img, mode='s&p', amount=0.0001)
     cv2.imshow("d", img_noise)
     cv2.waitKey(3000)
-    cv2.imwrite('./imgs/lenna_noise.png', img_noise*255)
+    cv2.imwrite('../imgs/lenna_noise.png', img_noise * 255)
 
 
-img1 = cv2.imread('./imgs/lenna.png')
+img1 = cv2.imread('../imgs/lenna.png')
 zaosheng(img1,)
-img2 = cv2.imread('./imgs/lenna_noise.png')
+img2 = cv2.imread('../imgs/lenna_noise.png')
 hash1 = aHash(img1)
 hash2 = aHash(img2)
 count = cmpHash(hash1, hash2)

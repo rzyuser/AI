@@ -25,7 +25,7 @@ retval, bestLabels, centers = kmeans(mnist_data, K, bestLabels, criteria, attemp
 
 
 # 读取图片
-img = cv2.imread('./imgs/lenna.png')
+img = cv2.imread('../imgs/lenna.png')
 
 # 将图片转化为一维 -1表示让numpy自己找出是多少
 data = np.reshape((-1, 3))

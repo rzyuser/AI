@@ -3,18 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="4477ccbd-4d96-43b6-b7cc-43bbe6c4ebaf" name="Default Changelist" comment="相关配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/camera_detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/camera_detect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/frcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/frcnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/RoiPoolingConv.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/RoiPoolingConv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/frcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/frcnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/frcnn_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/frcnn_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/anchors.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/anchors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/roi_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/roi_helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/Canny-边缘检测算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/Canny-边缘检测算法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/Kmeans聚类算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/Kmeans聚类算法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/PCA算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/PCA算法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/Sobel-边缘检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/Sobel-边缘检测.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/ransac.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/ransac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/sift_关键点.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/sift_关键点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/sift_特征匹配.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/sift_特征匹配.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/双线性插值.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/双线性插值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/噪声.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/噪声.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/层次聚类和密度聚类.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/层次聚类和密度聚类.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/差值和均值哈希.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/差值和均值哈希.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/最近临插值.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/最近临插值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/灰度化与二值化.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/灰度化与二值化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/直方图均衡化.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/直方图均衡化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/透视变换.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/透视变换.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,21 +65,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架" />
+      <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/imgs" />
+      <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/imgs/test_img" />
+      <recent name="$PROJECT_DIR$/data/faster-rcnn-keras-master/model_data" />
       <recent name="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master" />
-      <recent name="$PROJECT_DIR$/data/faster-rcnn-keras-master/VOCdevkit/VOC2007" />
-      <recent name="$PROJECT_DIR$/data/faster-rcnn-keras-master/VOCdevkit/VOC2007/ImageSets/Main" />
-      <recent name="$PROJECT_DIR$/data/faster-rcnn-keras-master/VOCdevkit/VOC2007/ImageSets" />
-      <recent name="$PROJECT_DIR$/data/faster-rcnn-keras-master" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/imgs/test_img" />
+      <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/imgs" />
+      <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/badou/CV/第十一周" />
-      <recent name="$PROJECT_DIR$/练习/课外项目/银行卡号识别" />
-      <recent name="$PROJECT_DIR$/badou/CV/第四周/作业" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.predict">
-    <configuration name="噪声" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.predict (1)">
+    <configuration name="Cifar10 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,12 +88,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第四周/噪声" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第十一周/作业" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第四周/噪声/噪声.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第十一周/作业/Cifar10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inceptionV3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Cifar10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,12 +110,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第十三周/作业" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架/Cifar10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第十三周/作业/inceptionV3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架/Cifar10/Cifar10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mobilenet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,12 +132,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第十三周/作业" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第十三周/作业/mobilenet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架/Tensorflow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第十一周/作业/AlexNet-Keras-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第十一周/作业/AlexNet-Keras-master/predict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,56 +176,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架/AlexNet-Keras-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/predict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ransac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/练习/八斗课程内容练习" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/八斗课程内容练习/ransac.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="resnet50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/badou/CV/第十二周/作业/resnet50" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/badou/CV/第十二周/作业/resnet50/resnet50.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架/AlexNet-Keras-master/predict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.predict (1)" />
         <item itemvalue="Python.predict" />
-        <item itemvalue="Python.ransac" />
-        <item itemvalue="Python.mobilenet" />
-        <item itemvalue="Python.inceptionV3" />
-        <item itemvalue="Python.resnet50" />
+        <item itemvalue="Python.Cifar10 (1)" />
+        <item itemvalue="Python.Cifar10" />
+        <item itemvalue="Python.Tensorflow" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +240,10 @@
       <workItem from="1721384420463" duration="2467000" />
       <workItem from="1721973080755" duration="1878000" />
       <workItem from="1721975813116" duration="829000" />
-      <workItem from="1721977481298" duration="2342000" />
+      <workItem from="1721977481298" duration="2578000" />
+      <workItem from="1722346290573" duration="111000" />
+      <workItem from="1722397244939" duration="16260000" />
+      <workItem from="1722579414255" duration="7624000" />
     </task>
     <task id="LOCAL-00001" summary="相关配置">
       <created>1712551951664</created>
@@ -470,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721979055201</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="相关配置">
+      <created>1721981479969</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721981479969</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,12 +501,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AI$NeuralNetWork.coverage" NAME="NeuralNetWork Coverage Results" MODIFIED="1719302753815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十周/作业" />
+    <SUITE FILE_PATH="coverage/AI$NeuralNetWork.coverage" NAME="NeuralNetWork Coverage Results" MODIFIED="1722408125125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架" />
     <SUITE FILE_PATH="coverage/AI$scan.coverage" NAME="scan Coverage Results" MODIFIED="1719546986394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/课外项目/文档扫描OCR识别" />
     <SUITE FILE_PATH="coverage/AI$test_image_gray.coverage" NAME="test_image_gray Coverage Results" MODIFIED="1713953217265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第二周" />
     <SUITE FILE_PATH="coverage/AI$d.coverage" NAME="d Coverage Results" MODIFIED="1715313609927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第三周" />
+    <SUITE FILE_PATH="coverage/AI$Cifar10__1_.coverage" NAME="Cifar10 (1) Coverage Results" MODIFIED="1722504611612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十一周/作业" />
     <SUITE FILE_PATH="coverage/AI$mobilenet.coverage" NAME="mobilenet Coverage Results" MODIFIED="1721294031162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十三周/作业" />
-    <SUITE FILE_PATH="coverage/AI$predict.coverage" NAME="predict Coverage Results" MODIFIED="1721978867505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master" />
+    <SUITE FILE_PATH="coverage/AI$predict.coverage" NAME="predict Coverage Results" MODIFIED="1722666721400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架/AlexNet-Keras-master" />
     <SUITE FILE_PATH="coverage/AI$keras__1_.coverage" NAME="keras (1) Coverage Results" MODIFIED="1719226261531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十周/参考" />
     <SUITE FILE_PATH="coverage/AI$Canny_.coverage" NAME="Canny-边缘检测算法 Coverage Results" MODIFIED="1718937152278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习" />
     <SUITE FILE_PATH="coverage/AI$nearest_interp.coverage" NAME="nearest interp Coverage Results" MODIFIED="1713956384251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第二周" />
@@ -526,11 +519,11 @@
     <SUITE FILE_PATH="coverage/AI$sift_.coverage" NAME="sift_关键点 Coverage Results" MODIFIED="1719562116979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习" />
     <SUITE FILE_PATH="coverage/AI$PCA_numpy_detail__1_.coverage" NAME="PCA_numpy_detail (1) Coverage Results" MODIFIED="1713432560909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/作业" />
     <SUITE FILE_PATH="coverage/AI$resnet50.coverage" NAME="resnet50 Coverage Results" MODIFIED="1720665222097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十二周/作业/resnet50" />
-    <SUITE FILE_PATH="coverage/AI$Cifar10.coverage" NAME="Cifar10 Coverage Results" MODIFIED="1719918111465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十一周/作业" />
+    <SUITE FILE_PATH="coverage/AI$Cifar10.coverage" NAME="Cifar10 Coverage Results" MODIFIED="1722497821474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架/Cifar10" />
     <SUITE FILE_PATH="coverage/AI$_01.coverage" NAME="透视变换-01 Coverage Results" MODIFIED="1715333218177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/参考" />
     <SUITE FILE_PATH="coverage/AI$tf.coverage" NAME="tf Coverage Results" MODIFIED="1719400198832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十周/参考/tf" />
-    <SUITE FILE_PATH="coverage/AI$keras.coverage" NAME="keras Coverage Results" MODIFIED="1719229848266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十周/作业" />
-    <SUITE FILE_PATH="coverage/AI$Tensorflow.coverage" NAME="Tensorflow Coverage Results" MODIFIED="1719400911173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十周/作业" />
+    <SUITE FILE_PATH="coverage/AI$keras.coverage" NAME="keras Coverage Results" MODIFIED="1722404913095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架" />
+    <SUITE FILE_PATH="coverage/AI$Tensorflow.coverage" NAME="Tensorflow Coverage Results" MODIFIED="1722421718313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架" />
     <SUITE FILE_PATH="coverage/AI$sobel_.coverage" NAME="sobel-新 Coverage Results" MODIFIED="1712653244712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第三周" />
     <SUITE FILE_PATH="coverage/AI$canny_01.coverage" NAME="canny_01 Coverage Results" MODIFIED="1715334022265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/作业" />
     <SUITE FILE_PATH="coverage/AI$__1_.coverage" NAME="层次聚类 (1) Coverage Results" MODIFIED="1716452700248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第七周/参考/聚类" />
@@ -549,7 +542,8 @@
     <SUITE FILE_PATH="coverage/AI$canny_detail.coverage" NAME="canny_detail Coverage Results" MODIFIED="1717410952438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/canny" />
     <SUITE FILE_PATH="coverage/AI$ransac.coverage" NAME="ransac Coverage Results" MODIFIED="1721824953422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习" />
     <SUITE FILE_PATH="coverage/AI$PCA_sklearn.coverage" NAME="PCA_sklearn Coverage Results" MODIFIED="1716888613210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/作业" />
-    <SUITE FILE_PATH="coverage/AI$predict__1_.coverage" NAME="predict (1) Coverage Results" MODIFIED="1720508426943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十二周/作业/VGG16_tf" />
+    <SUITE FILE_PATH="coverage/AI$predict__1_.coverage" NAME="predict (1) Coverage Results" MODIFIED="1722666861061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第十一周/作业/AlexNet-Keras-master" />
+    <SUITE FILE_PATH="coverage/AI$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1722404470628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习/imgs" />
     <SUITE FILE_PATH="coverage/AI$sobel_laplace_canny.coverage" NAME="sobel_laplace_canny Coverage Results" MODIFIED="1715327780958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第五周/canny" />
     <SUITE FILE_PATH="coverage/AI$PCA_numpy_detail.coverage" NAME="PCA_numpy_detail Coverage Results" MODIFIED="1716887431535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/badou/CV/第四周/作业" />
     <SUITE FILE_PATH="coverage/AI$soble.coverage" NAME="soble Coverage Results" MODIFIED="1714735704935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/练习/八斗课程内容练习" />

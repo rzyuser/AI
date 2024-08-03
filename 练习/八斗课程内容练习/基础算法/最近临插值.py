@@ -33,7 +33,7 @@ def nearest_interp(img):
     return img_zjl
 
 
-img = cv2.imread('./imgs/lenna.png')
+img = cv2.imread('../imgs/lenna.png')
 imh_zjl = nearest_interp(img)
 cv2.imshow('src', img)
 cv2.imshow('dst', imh_zjl)

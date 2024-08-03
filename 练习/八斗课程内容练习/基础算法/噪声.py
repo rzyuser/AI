@@ -42,11 +42,11 @@ def Jiaoyan_Zaosheng(img, percetage):
 
 
 # 读取图片并转化为灰度图
-img = cv2.imread('./imgs/lenna.png', 0)
+img = cv2.imread('../imgs/lenna.png', 0)
 gaosi_img = Gaosi_Zaosheng(img, 2, 4, 0.8)
-img1 = cv2.imread('./imgs/lenna.png', 0)
+img1 = cv2.imread('../imgs/lenna.png', 0)
 jiaoyan_img = Jiaoyan_Zaosheng(img1, 0.2)
-img2 = cv2.imread('./imgs/lenna.png', 0)
+img2 = cv2.imread('../imgs/lenna.png', 0)
 cv2.imshow("src", img2)
 cv2.imshow("gaosi", gaosi_img)
 cv2.imshow("jiaoyan", jiaoyan_img)

@@ -21,8 +21,8 @@ def drawMatchesKnn_cv2(img1_gray, kp1, img2_gray, kp2, goodMatch):
 
 
 
-img1 = cv2.imread('./imgs/iphone1.png')
-img2 = cv2.imread('./imgs/iphone2.png')
+img1 = cv2.imread('../imgs/iphone1.png')
+img2 = cv2.imread('../imgs/iphone2.png')
 
 sift = cv2.xfeatures2d.SIFT_create()
 

@@ -31,7 +31,7 @@ def bilinear_interp(img):
     return bilinear_interp1
 
 
-img = cv2.imread('./imgs/lenna.png')
+img = cv2.imread('../imgs/lenna.png')
 bilinear_interp1 = bilinear_interp(img)
 cv2.imshow("scr", img)
 cv2.imshow("dst", bilinear_interp1)
