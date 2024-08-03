@@ -3,21 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4477ccbd-4d96-43b6-b7cc-43bbe6c4ebaf" name="Default Changelist" comment="相关配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/Canny-边缘检测算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/Canny-边缘检测算法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/Kmeans聚类算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/Kmeans聚类算法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/PCA算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/PCA算法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/Sobel-边缘检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/Sobel-边缘检测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/ransac.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/ransac.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/sift_关键点.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/sift_关键点.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/sift_特征匹配.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/sift_特征匹配.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/双线性插值.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/双线性插值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/噪声.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/噪声.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/层次聚类和密度聚类.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/层次聚类和密度聚类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/差值和均值哈希.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/差值和均值哈希.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/最近临插值.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/最近临插值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/灰度化与二值化.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/灰度化与二值化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/直方图均衡化.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/直方图均衡化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/八斗课程内容练习/透视变换.py" beforeDir="false" afterPath="$PROJECT_DIR$/练习/八斗课程内容练习/基础算法/透视变换.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/badou/CV/第十五周/mtcnn-keras-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/badou/CV/第十五周/mtcnn-keras-master" />
+      <recent name="$PROJECT_DIR$/badou/CV/第十五周/yolo3-tensorflow-master" />
       <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/深度学习框架" />
       <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/imgs" />
       <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/imgs/test_img" />
-      <recent name="$PROJECT_DIR$/data/faster-rcnn-keras-master/model_data" />
-      <recent name="$PROJECT_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/练习/八斗课程内容练习/imgs/test_img" />
@@ -244,6 +229,7 @@
       <workItem from="1722346290573" duration="111000" />
       <workItem from="1722397244939" duration="16260000" />
       <workItem from="1722579414255" duration="7624000" />
+      <workItem from="1722668048019" duration="9187000" />
     </task>
     <task id="LOCAL-00001" summary="相关配置">
       <created>1712551951664</created>
@@ -462,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721981479969</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="相关配置">
+      <created>1722668353537</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1722668353537</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
