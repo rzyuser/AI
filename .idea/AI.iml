@@ -5,8 +5,20 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/nets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/badou/CV/第十四周/作业/faster-rcnn-keras-master/utils1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/练习/八斗课程内容练习/深度学习框架/faster-tcnn-keras-master/nets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/练习/八斗课程内容练习/深度学习框架/faster-tcnn-keras-master/utils2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/badou/CV/第十六周/mask-rcnn-keras-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/badou/CV/第十六周/mask-rcnn-keras-master/nets3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/badou/CV/第十六周/mask-rcnn-keras-master/utils3" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (rzy) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/badou/CV/第十六周/mask-rcnn-keras-master/utils3" />
+      </list>
+    </option>
   </component>
 </module>
